@@ -19,4 +19,4 @@ Omamori is a small project made by people who like osu!. Everyone who takes part
 
 ## Reporting
 
-Report anything that breaks this code to **REPORT_EMAIL**. Reports are read only by the maintainers and kept private. If a maintainer is involved, say so and they'll be left out of handling it.
+Report anything that breaks this code to **catforgor@proton.me**. Reports are read only by the maintainers and kept private. If a maintainer is involved, say so and they'll be left out of handling it.
