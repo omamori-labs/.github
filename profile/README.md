@@ -81,6 +81,7 @@ Read [CONTRIBUTING.md](https://github.com/omamori-labs/.github/blob/main/CONTRIB
 | Repository | |
 |---|---|
 | [Omamori](https://github.com/omamori-labs/Omamori) | the framework: the loader, the API mods build against, the mod manager, the build packages and the mod template |
+| [.github](https://github.com/omamori-labs/.github) | The profile for our organization |
 
 <br>
 
