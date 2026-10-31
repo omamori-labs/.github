@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/omamori-labs/Omamori/security/advisories/new
+    about: Report it privately, not as an issue.
+  - name: A bug in osu! itself
+    url: https://github.com/ppy/osu/issues
+    about: If it happens without Omamori installed too, it's for ppy.

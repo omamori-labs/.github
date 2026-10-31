@@ -1,0 +1,70 @@
+name: Bug report
+description: Omamori crashed, a mod won't load, or something doesn't work
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. If a mod made by someone else misbehaves, check with its author first: Omamori turns a crashing mod off, and settings, **Omamori**, **Manage mods** shows which one it was.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen
+      description: Steps someone else can follow, as short as you can make them.
+      placeholder: |
+        1. Install mod X
+        2. Open song select
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Omamori's log lines
+      description: From osu!'s `logs` folder, in the newest `*.runtime.log`, every line with `[Omamori]` in it. They usually show what went wrong.
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: omamori-version
+    attributes:
+      label: Omamori version
+      description: The `[Omamori]` line starting `Omamori core`, like `Omamori core 0.1.0-alpha.3 starting (API 0.3)`.
+    validations:
+      required: true
+
+  - type: input
+    id: lazer-version
+    attributes:
+      label: osu!lazer version
+      description: The `[Omamori]` line starting `Running on osu!`, like `Running on osu! 2026.1005.0-lazer`.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - Linux
+        - macOS
+    validations:
+      required: true
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: Installed mods
+      description: Which mods you have, and their versions. Does it still happen with every other mod turned off?

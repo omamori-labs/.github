@@ -1,0 +1,30 @@
+name: Feature request
+description: Something Omamori, its API or the mod manager should do
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Omamori is **cosmetic and informational only**. Requests for anything that helps a player play, like input, timing, hit windows or upcoming hit objects, will be closed.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you want to do
+      description: The mod or feature you're trying to build, and what's stopping you today.
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: How it could work
+      description: An event, a UI hook, a setting element, a manager change, whatever you have in mind. A sketch of the API you'd want is welcome.
+
+  - type: checkboxes
+    id: gameplay
+    attributes:
+      label: The one rule
+      options:
+        - label: This doesn't give anyone an advantage in gameplay.
+          required: true
